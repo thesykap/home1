@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0" />
+    </head>
+    <body>
+      
+       
+        <form style="padding: 20px; width: 40%; margin: auto; border: 2px solid;text-align: center;background-color: pink;">
+             <h1>Inscription à un atelier</h1>
+
+            <label for="Nom">Nom :</label><br>
+                <input type="text" id="Nom" placeholder="votre nom" required><br><br>
+            <label for="Postnom">Postnom :</label><br>
+                <input type="text" id="Postnom" placeholder="votre postnom" required><br><br>
+            <label for="Prenom">Prenom :</label><br>
+                <input type="text" id="Prenom" placeholder="votre prenom" required><br><br>
+            <label for="mail">Email :</label><br>
+                <input type="email" id="mail" name="mail" placeholder="example@gmail.com" required><br><br>
+            <label for="telephone">Telephone :</label><br>
+                <input type="tel" id="telephone" name="telephone" placeholder="votre telephone"><br><br>
+
+            <label>Niveau :</label><br>
+            <label for="débutant">débutant</label>
+                <input type="radio" id="débutant" name="Niveau" value="débutant" required>
+            <label for="intermediaire">intermediaire</label>
+                <input type="radio" id="intermediaire" name="Niveau" value="intermediaire" required>
+            <label for="avancé">avancé</label>
+                <input type="radio" id="avancé" name="Niveau" value="avancé" required><br><br>
+
+            <label>Langage connu</label><br>
+            <label for="HTML">HTML</label>
+                <input type="checkbox" id="HTML" name="Langage connu" value="HTML">
+            <label for="CSS">CSS</label>
+                <input type="checkbox" id="CSS" name="Langage connu" value="CSS">
+            <label for="JS">JS</label>
+                <input type="checkbox" id="JS" name="Langage connu" value="JS"><br><br>
+
+            <label for="pays">Pays :</label>
+              <select id="pays"  name="pays" required>
+
+                <option value="France">France</option>
+                <option value="Belgique">Belgique</option>
+                <option value="Paris">Paris</option>
+                <option value="Canada">Canada</option>
+              </select><br><br>
+
+               <label for="Message libre">Message libre :</label><br>
+                <textarea id="message" name="message" rows="10" cols="50" placeholder="vore message" ></textarea><br><br>
+             <button type="submit">Envoyer</button>
+              <button type="reset">Rénitialiser</button>
+
+        </form>
+      </diV>
+    </body>
+</html>

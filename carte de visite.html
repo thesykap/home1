@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+
+    </head>
+    <body style="margin: auto;
+        width: 50%;
+        padding: 15px;
+        padding-bottom: 10px;
+        align-items: center;
+        text-align: center;">
+        <div style="border: 2px solid  palevioletred;padding-bottom: 5%;"  >
+            <h1>CARTE DE VISITE</h1>
+            <img src="carte.jpg" width="150px">
+            <form action="https://fr.wikipedia.org/" style="padding: 20px; width: 60%; margin: auto; border: 2px solid pink;">
+                <label for="Nom">Nom :</label><br>
+                <input type="text" id="Nom" placeholder="votre nom" required><br><br>
+                <label for="Prenom">Prenom :</label><br>
+                <input type="text" id="Prenom" placeholder="votre prenom"><br><br>
+                <label for="mail">Email :</label><br>
+                <input type="email" id="mail" name="mail" placeholder="example@gmail.com" required><br><br>
+                <label for="telephone">Telephone :</label><br>
+                <input tupe="tel" id="telephone" name="telephone" placeholder="votre telephone"><br><br>
+                <label for="bio">Bio :</label><br>
+                <textarea id="message" name="message" rows="10" cols="50" placeholder="vore message" ></textarea><br><br>
+                <label for="etat-civil">Etat-civile :</label><br>
+                <label for="marie">marié</label>
+                <input type="radio" id="marié" name="etat-civil" value="marié">
+                <label for="celibataire">Celibataire</label>
+                <input type="radio" id="celibataire" name="etat-civil" value="celibataire"><br><br>
+                <label for="proffession">Proffession </label><br>
+                <input type="checkbox" id="etudiant" name="proffession" value="etudiant">
+                <label for="etudiant">Etudiant </label>
+                <input type="checkbox" id="employé" name="proffession" value="employé">
+                <label for="employé">Employé </label>
+                <input type="checkbox" id="autre" name="proffession" value="autre">
+                <label for="autre">Autre</label><br><br>
+                <label for="pays">Pays :</label>
+                <select id="pays"  name="pays">
+                <option value="=France">France</option>
+                <option value="=Belgique">Belgique</option>
+                <option value="=Paris">Paris</option>
+                <option value="=Canada">Canada</option>
+                <option value="=Suisse">Suisse</option>
+                </select><br><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </body>
+</html>
